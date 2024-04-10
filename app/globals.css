@@ -2,32 +2,190 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
+@keyframes blink {
+   50% { border-color: transparent }
+  }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  .blinking {
+    animation: blink 1s infinite;
+  }
+
+  @keyframes open-hero {
+    from {
+      transform: scale(0);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  .open-out {
+    animation: open-hero 2s forwards;
+  }
+
+  .icon-projects {
+    position: relative;
+  }
+  .icon-projects::after {
+    content: "Projects";
+    visibility: hidden;
+    position: absolute;
+    top: 20%;
+    left: -20%;
+    opacity: 0;
+    transition: opacity 1s ease;
+
+  }
+
+  .icon-projects:hover::after {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .icon-projects:hover {
+    visibility: hidden;
+  }
+
+   .icon-about {
+    position: relative;
+  }
+  .icon-about::after {
+    content: "About";
+    visibility: hidden;
+    position: absolute;
+    top: 20%;
+    left: -20%;
+    opacity: 0;
+    transition: opacity 1s ease;
+
+  }
+
+  .icon-about:hover::after {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .icon-about:hover {
+    visibility: hidden;
+  }
+
+
+   .icon-contact {
+    position: relative;
+  }
+  .icon-contact::after {
+    content: "Contact";
+    visibility: hidden;
+    position: absolute;
+    top: 20%;
+    left: -20%;
+    opacity: 0;
+    transition: opacity 1s ease;
+
+  }
+
+  .icon-contact:hover::after {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .icon-contact:hover {
+    visibility: hidden;
+  }
+  
+
+  @keyframes typing {
+    from { width: 0 }
+  }
+ 
+
+  .typed-out {
+    border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden; 
+    width: 31rem;
+    animation: typing 3s steps(14), blink .5s step-end infinite alternate;
+  }
+
+  .projects:hover {
+    font-style: italic;
+    cursor: pointer;
+  }
+
+  .bring-up {
+    animation: move-up 1s forwards;
+  }
+
+  @keyframes move-up {
+    from {
+      transform: translate(0, 100%);
+      opacity: 0;
+    }
+    to {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes move-left {
+    from {
+      transform: translate(100%, 0);
+      opacity: 0;
+    }
+    to {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+  }
+
+  .bring-left {
+    animation: move-left 1s forwards;
+  }
+
+  .bring-dwn {
+    animation: move-down 1s forwards;
+  }
+
+  @keyframes move-down {
+    from {
+      transform: translate(0, -100%);
+      opacity: 0;
+    }
+    to {
+      transform: translate(0, 0);
+      opacity: 1;
+    }
+  }
+
+  .project-title {
+    animation: appear 4s forwards;
+  }
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+
+@keyframes animate-glow {
+ 0% { opacity: 0;
+ transform: scale(0.2, 0.2);
+}
+100% {
+  opacity: 1;
+  transform: scale(1, 1);
+}
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.sidebar {
+  animation: move-down 1.5s forwards;
 }
+
+
+
+
+  
