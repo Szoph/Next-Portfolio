@@ -3,7 +3,7 @@ import SideBar from "../SideBar"
 
 const ProjectPage = () => {
   return (
-    <div className="w-full h-full bg-[#f5ebe0] dark:bg-medium dark:text-[#96A9C7] text-[#B08C70] p-24 md:pl-44 lg:pl-44 flex md:flex-row lg:flex-row flex-col">
+    <div className="w-full h-full bg-[#f5ebe0] dark:bg-medium dark:text-[#96A9C7] text-[#B08C70] p-24 md:pl-44 lg:pl-44 flex md:flex-col lg:flex-row flex-col">
       <SideBar />
   <div className="flex flex-col md:w-2/3 lg:2/3 w-full">
 <h2 className="md:text-9xl lg:text-9xl text-4xl pt-24 font-semibold bring-up text-center bring-up">Projects</h2>
@@ -26,8 +26,8 @@ const ProjectPage = () => {
   <h3 className="text-5xl md:text-right lg:text-right text-center font-semibold">Ceaser Cipher Encryptor</h3>
 <p className="text-center md:text-right lg:text-right">Word Encryptor/Decryptor</p></a>
 <a className="hover:cursor-pointer projects" href="/projects/quiz">
-  <h3 className="text-5xl md:text-right lg:text-right text-center font-semibold">Personality Type Quiz</h3>
-<p className="text-center md:text-right lg:text-right">Pokémon Type Quiz</p></a>
+  <h3 className="text-5xl md:text-right lg:text-right text-center font-semibold">Pokémon Type Quiz</h3>
+<p className="text-center md:text-right lg:text-right">Personality Type Quiz</p></a>
 </div>
     </div>
   )

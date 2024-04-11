@@ -3,13 +3,13 @@ import SideBar from "../SideBar"
 
 const About = () => {
   return (
-   <div className="relative p-24 md:pl-44 lg:pl-44 pb-48  bg-[#f5ebe0] dark:bg-medium dark:text-[#96A9C7] text-[#B08C70] w-full h-full">
+   <div className="about-page relative md:p-24 lg:p-24 md:pl-44 lg:pl-44 pb-48 bg-[#f5ebe0] dark:bg-medium dark:text-[#96A9C7] text-[#B08C70] w-full h-full">
     <SideBar />
     <h2 className="md:text-9xl lg:text-9xl text-4xl font-semibold bring-up overflow-hidden">About</h2>
-    <p className="md:text-4xl lg:text-4xl text-2xl w-3/4 font-semibold">Hi there! I'm Sophie, a passionate software developer</p>
+    <p className="md:text-4xl lg:text-4xl text-lg md:w-3/4 lg:w-3/5 w-full font-semibold">Hi there! I'm Sophie, a passionate software developer</p>
     
-       <div className="absolute md:right-24 md:top-40 lg:right-24 lg:top-40 top-36 right-8 bring-up">
-            <img src="/Me2.JPG" className="md:w-80 md:h-80 w-40 h-40 rounded-sm" />
+       <div className="bring-up picture-container">
+            <img src="/Me2.JPG" className="rounded-sm picture-me" />
             </div>
 
       <div className="md:w-2/4 lg:w-2/4 w-full pt-24">

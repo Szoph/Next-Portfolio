@@ -10,7 +10,7 @@ const WeatherAppPage = () => {
     <h3 className="md:text-2xl lg:text-2xl text-xl">OpenAPI Weather App</h3>
 
 
-    <p className="pt-24 w-3/4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati sint reprehenderit quaerat doloribus officiis sit minima quod enim. Architecto quae excepturi distinctio, sapiente saepe unde. Perspiciatis porro quaerat odio id?</p>
+    <p className="pt-24 w-3/4">COMING SOON</p>
 
 
     <div className="flex flex-row gap-24 mt-24">
@@ -21,8 +21,8 @@ const WeatherAppPage = () => {
 
     <div className="flex flex-col w-1/5">
         <h3 className="pt-8 text-xl font-bold border-b-2">Links</h3>
-    <p className="pt-4"><a href="https://doze-pink.vercel.app/" target="_blank">Live</a></p>
-    <p className="pt-4 pb-14"><a href="https://github.com/TKPending/Doze" target="_blank">Github</a></p>
+    <p className="pt-4"><a href="#" target="_blank">Live</a></p>
+    <p className="pt-4 pb-14"><a href="#" target="_blank">Github</a></p>
     </div>
 
     </div>
@@ -33,7 +33,7 @@ const WeatherAppPage = () => {
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus velit assumenda maxime. Reprehenderit blanditiis quaerat veniam soluta quam dignissimos amet facere molestiae, doloribus impedit possimus, iusto dolore totam nihil magni!</p>
       </div>
 
-      <img src="/DozeWindowNew.png" className=" md:w-96 md:h-80 lg:w-2/4 w-full mb-24"  />
+      <img src="#" className=" md:w-96 md:h-80 lg:w-2/4 w-full mb-24"  />
     </div>
   </div>
   )

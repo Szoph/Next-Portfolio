@@ -108,6 +108,16 @@
     animation: typing 3s steps(14), blink .5s step-end infinite alternate;
   }
 
+  @media (max-width: 540px) {
+    .typed-out {
+      border-right: 5px solid;
+    white-space: nowrap;
+    overflow: hidden; 
+    width: 16rem;
+    animation: typing 3s steps(14), blink .5s step-end infinite alternate;
+    }
+  }
+
   .projects:hover {
     font-style: italic;
     cursor: pointer;
@@ -185,6 +195,40 @@
   animation: move-down 1.5s forwards;
 }
 
+
+.picture-container {
+  position: absolute; 
+  top: 10rem; 
+  right: 8rem; 
+  height: 20rem;
+  width: 20rem;
+}
+
+@media (max-width: 540px) {
+  
+  .picture-container {
+    position: static;
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+  }
+
+  .about-page {
+    padding: 6rem 2rem 6rem 6rem;
+  }
+}
+@media (min-width: 540px) and (max-width: 1024px) {
+  .picture-container {
+    position: absolute;
+    top: 24rem;
+    right: 4rem;
+    width: 15rem;
+    height: 15rem;
+  }
+}
 
 
 
