@@ -5,7 +5,7 @@ const Hero = () => {
     <div className="w-full h-screen bg-[#f5ebe0] dark:bg-medium dark:text-[#96A9C7] text-[#B08C70]">
         <div className="w-full h-full flex flex-col gap-8 items-center ">
         
-            <h1 className="text-7xl font-bold titles typed-out mt-64">Hi, I'm Sophie</h1>
+            <h1 className="md:text-7xl lg:text-7xl text-4xl font-bold titles typed-out mt-64">Hi, I'm Sophie</h1>
             <h2 className="text-xl font-semibold">Software Developer, Sheffield, UK</h2>
             <a className="flex flex-row gap-2 font-bold hover:cursor-pointer" href="/ResumeSophie.pdf" download="Sophie Woodcock">CV <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" x2="12" y1="15" y2="3"/></svg></a>
             <div className="w-3/4 mt-10 flex justify-evenly open-out">

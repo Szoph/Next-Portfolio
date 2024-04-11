@@ -21,8 +21,8 @@ const QuizPage = () => {
 
     <div className="flex flex-col w-1/5">
         <h3 className="pt-8 text-xl font-bold border-b-2">Links</h3>
-    <p className="pt-4"><a href="https://doze-pink.vercel.app/" target="_blank">Live</a></p>
-    <p className="pt-4 pb-14"><a href="https://github.com/TKPending/Doze" target="_blank">Github</a></p>
+    <p className="pt-4"><a href="https://szoph.github.io/my-quiz-site/" target="_blank">Live</a></p>
+    <p className="pt-4 pb-14"><a href="https://github.com/Szoph/my-quiz-site" target="_blank">Github</a></p>
     </div>
 
     </div>
