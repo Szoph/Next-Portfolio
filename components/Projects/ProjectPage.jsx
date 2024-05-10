@@ -3,7 +3,7 @@ import SideBar from "../SideBar"
 
 const ProjectPage = () => {
   return (
-    <div className="w-full h-full bg-[#f5ebe0] dark:bg-medium dark:text-[#96A9C7] text-[#B08C70] p-24 md:pl-44 lg:pl-44 flex md:flex-col lg:flex-row flex-col">
+    <div className="w-full h-full lg:w-screen lg:h-screen bg-[#f5ebe0] dark:bg-medium dark:text-[#96A9C7] text-[#B08C70] p-24 md:pl-44 lg:pl-44 flex md:flex-col lg:flex-row flex-col">
       <SideBar />
   <div className="flex flex-col md:w-2/3 lg:2/3 w-full">
 <h2 className="md:text-9xl lg:text-9xl text-4xl pt-24 font-semibold bring-up text-center bring-up">Projects</h2>
