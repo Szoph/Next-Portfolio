@@ -3,20 +3,20 @@ import SideBar from "../../../components/SideBar";
 
 const PortalsPage = () => {
   return (
-    <div className="w-full h-full bg-[#f5ebe0] dark:bg-medium dark:text-[#96A9C7] text-[#B08C70] p-24 md:pl-44 lg:pl-44">
+    <div className="w-full h-full bg-[#f5ebe0] dark:bg-medium dark:text-[#96A9C7] text-[#B08C70]  px-14 py-24 md:pl-44 lg:pl-44">
     <SideBar />
-    <h2 className="md:text-8xl lg:text-8xl text-4xl bring-up">House of Portals</h2>
+    <h2 className="md:text-8xl lg:text-8xl text-4xl bring-up pb-4">House of Portals</h2>
     
     <h3 className="md:text-2xl lg:text-2xl text-xl">Text Adventure Game</h3>
 
 
-    <p className="pt-24 w-3/4">This text adventure game was made during my software development bootcamp, built with JavaScript, HTML and Tailwind CSS. Players use key words to travel and interact with objects and characters. </p>
+    <p className="pt-24 w-3/4 text-md md:text-lg lg:text-lg">This text adventure game was made during my software development bootcamp, built with JavaScript, HTML and Tailwind CSS. Players use key words to travel and interact with objects and characters. </p>
 
 
-    <div className="flex flex-row gap-24 mt-24">
+    <div className="flex flex-col md:flex-row lg:flex-row gap-24 mt-24">
       <div className="flex flex-col">
         <h3 className="pt-8 text-xl font-bold border-b-2 w-2/3">Tech Stack</h3>
-    <p className="pt-4 pb-14 w-2/3">JavaScript / HTML / Tailwind  </p>
+    <p className="pt-4 md:pb-14 lg:pb-14 pb-0 md:w-2/3 lg:w-2/3 w-full">JavaScript / HTML / Tailwind  </p>
     </div>
 
     <div className="flex flex-col w-1/5">
@@ -26,9 +26,9 @@ const PortalsPage = () => {
     </div>
 
     </div>
-    <div className="flex md:flex-row lg:flex-row flex-col-reverse " >
+    <div className="flex md:flex-col-reverse lg:flex-row flex-col-reverse " >
       <div className="md:w-2/3 lg:w-2/3 flex flex-col gap-8 pr-4">
-      <p className="">House of Portals showcases the power of object-oriented programming, allowing for dynamic gameplay experiences and navigation through it's narritive. As the sole developer behind House of Portals, I used my passion for storytelling and design to bring this text adventure game to life.</p>
+      <p className="text-md md:text-lg lg:text-lg">House of Portals showcases the power of object-oriented programming, allowing for dynamic gameplay experiences and navigation through it's narritive. As the sole developer behind House of Portals, I used my passion for storytelling and design to bring this text adventure game to life.</p>
 
       </div>
 
