@@ -10,12 +10,12 @@ const ProjectPage = () => {
 <h3 className="md:pt-24 lg:pt-24 py-8 md:w-3/4 lg:w-3/4 w-full">Here you'll find a collection of my work, primarily from challenging briefs encountered during my software development bootcamp journey. Each project represents an opportunity for me to apply my skills, creativity, and problem-solving abilities to real-world scenarios. </h3>
 </div>
 <div className="w-full flex md:gap-4 lg:gap-5 gap-8 flex-col bring-up md:items-end lg:items-end items-center pb-24">
+<a className="hover:cursor-pointer projects" href="/projects/viridiancarpentry">
+  <h3 className="text-5xl md:text-right lg:text-right text-center font-semibold">Viridian Carpentry</h3>
+<p className="text-center md:text-right lg:text-right py-2">Portfolio Site</p></a>
 <a className="hover:cursor-pointer projects" href="/projects/doze">
   <h3 className="text-5xl md:text-right lg:text-right text-center font-semibold">Doze</h3>
 <p className="text-center md:text-right lg:text-right py-2">Task Management App</p></a>
-<a className="hover:cursor-pointer projects" href="/projects/hangman">
-  <h3 className="text-5xl md:text-right lg:text-right text-center font-semibold">Hangman Game</h3>
-<p className="text-center md:text-right lg:text-right py-2">Interactive Hangman Game</p></a>
 <a className="hover:cursor-pointer projects" href="projects/weatherapp">
   <h3 className="text-5xl md:text-right lg:text-right text-center font-semibold">Weather App</h3>
 <p className="text-center md:text-right lg:text-right py-2">OpenWeatherMapAPI</p></a>
