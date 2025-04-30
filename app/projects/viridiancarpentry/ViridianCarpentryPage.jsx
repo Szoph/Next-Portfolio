@@ -31,6 +31,11 @@ const ViridianCarpentryPage = () => {
       <p className="text-md md:text-lg lg:text-lg">The Viridian Carpentry website demonstrates my ability to create functional and aesthetically pleasing websites.  </p>
 
       <p className='text-md md:text-lg lg:text-lg'>I utilised Next.js for it's powerful React framework capabilities, Bootstrap for functional and responsive elements such as a carousel and tabs for the portfolio, and CSS and Tailwind for custom styling. This project not only showcases my technical skills but also my ability to deliver a product that meets the specific needs of a local business. </p>
+     
+     
+      <h3 className="pt-8 text-xl font-bold border-b-2 w-2/3">Testing & QA</h3>
+      <p className="text-md md:text-lg lg:text-lg">During development, I carried out manual testing across Chrome, Firefox and Edge to ensure consistent layout and functionality.  </p>
+      <p className="text-md md:text-lg lg:text-lg">I created test cases for key features such as the contact form and image carousel, checking for responsiveness, validation errors, and usability. I also performed accessibility checks to ensure that the content was readable and navigable for all users.   </p>
       </div>
 
       <img src="/ViridianCarpentry.png" className="object-cover md:w-96 h-auto lg:w-2/4  w-full mb-24"  />

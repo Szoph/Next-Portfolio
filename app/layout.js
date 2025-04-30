@@ -12,6 +12,9 @@ const poppins = Poppins({subsets: ["latin"], weight: ["500", "600", "700", "400"
 export const metadata = {
   title: "Sophie's Portfolio",
   description: "Sophie's Nextjs Portfolio site. Built with Nextjs and styled with TailwindCSS.",
+  icons: {
+    icon: '/logo.png',
+  }
 };
 
 export default function RootLayout({ children }) {

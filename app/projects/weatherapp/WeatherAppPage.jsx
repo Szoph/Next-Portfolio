@@ -31,6 +31,8 @@ const WeatherAppPage = () => {
       <p className="text-md md:text-lg lg:text-lg">Users can search for a city to get the weather information for that city. The app then displays information about today's weather, hourly weather, and the forecast for the next 6 days.</p>
 
       <p className='text-md md:text-lg lg:text-lg'>I used React Toastify library to display error and warning messages to the user in case the city entered is not found or if there is any other issue with the request. </p>
+      
+      
       </div>
 
       <img src="/WeatherAppS.png" className="object-cover md:w-96 h-auto lg:w-2/4 w-full mb-24"  />
