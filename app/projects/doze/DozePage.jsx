@@ -3,7 +3,7 @@ import SideBar from "../../../components/SideBar"
 
 const DozePage = () => {
   return (
-    <div className="w-full h-full bg-[#f5ebe0] dark:bg-medium dark:text-[#96A9C7] text-[#B08C70] px-14 py-24 md:pl-44 lg:pl-44">
+    <div className="w-full h-full min-w-screen min-h-screen bg-[#f5ebe0] dark:bg-medium dark:text-[#96A9C7] text-[#B08C70] px-14 py-24 md:pl-44 lg:pl-44">
       <SideBar />
       <h2 className="md:text-8xl lg:text-8xl text-4xl bring-up">Doze</h2>
       
@@ -31,6 +31,10 @@ const DozePage = () => {
         <p className="text-md md:text-lg lg:text-lg">Developed during my software development bootcamp, Doze represents the result of learning to create full-stack applications while collaborating within a team. Built using Nextjs, Nodejs, Expressjs and Axios, with a sleek and intuitive UI crafted using Tailwind CSS and DaisyUI components, Doze seamlessly blends functionality with aesthetics. </p>
 
         <p className='text-md md:text-lg lg:text-lg'>As part of the development team, I contributed to many aspects of Doze, from imagining features and designing user interfaces to implementing backend logic and ensuring smooth communication between front and backend systems. This experience not only honed my technical skills but also taught me the power of collaboration and effective teamwork to bring ideas to life.</p>
+        <h3 className="pt-8 text-xl font-bold border-b-2 w-2/3">Testing & QA</h3>
+      <p className="text-md md:text-lg lg:text-lg">Me and other members of the team played a key role in ensuring the app's quality by performing manual testing throughout development. This included writing and executing test cases for features such as goal creation, progress tracking, and sub-task creation. We reported bugs to the team using Trello, clearly documenting issues. Using browser developer tools, I tested the UI across Chrome, Firefox and Edge, and validated responsiveness on various screen sizes to ensure a smooth and accessible user experience across devices.  </p>
+      
+     
         </div>
 
         <img src="/DozeWindowNew.png" className="object-cover md:w-96 h-auto lg:w-2/4  w-full mb-24"  />
